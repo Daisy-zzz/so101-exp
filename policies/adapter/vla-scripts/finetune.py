@@ -5,8 +5,6 @@ Fine-tunes Qwen2.5-0.5B via LoRA.
 """
 
 import os
-os.environ["HF_TOKEN"] = "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"
-os.environ["HUGGINGFACE_HUB_TOKEN"] = "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"
 import time
 from collections import deque
 from dataclasses import dataclass
